@@ -2,7 +2,7 @@
 #### `npm install express nodemon pg`
 
 Create db.js file
-`
+```
 const Pool = require('pg').Pool;
 const pool = new Pool({
     user:"postgres",
@@ -13,5 +13,5 @@ const pool = new Pool({
 });
 
 module.exports = pool;
-`
+```
 #### `npm start`
